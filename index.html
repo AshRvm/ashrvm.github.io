@@ -20,11 +20,6 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>My portfolio</h1>
-						<!-- <p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p> -->
-						<!-- <ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul> -->
 					</div>
 
 				<!-- Header -->
@@ -63,55 +58,59 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2>NVME-STAS over RoCE v2</h2>
+										<h2>NVMe-STAS over RoCE v2</h2>
 										<p style="text-align:right;font-size:14px;color:#353744"><b>- (Interned at Cisco as SWE)</b></p>
 									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Enabled discovery and connection of CDCs over a RoCE v2 network for NVMe-STAS, a program that uses multiple <b>Python</b> scripts to automate the discovery and connection of 
+										discovery controllers and I/O controllers using multiple daemon processes including well know daemons like Avahi, which was used 
+										to discover those discovery controllers that advertised themselves with the appropriate Avahi-service types,
+										using mDNS/DNS-SD.</p>
 								</article>
 								<article>
 									<header>
 										<h2><a href="https://github.com/AshRvm/CS3205/tree/main/Assignment2">Tic Tac Toe Server</a></h2>
 									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>A TCP/IP server-client application built using <b>C</b>, that hosts tic-tac-toe games on the server side, capable of hosting multiple games
+										at any instance, that pairs 2 players in the waiting queue immediately after a table becomes free. On the client side,
+										displays the current board using the CLI and takes input from the same. This appliction takes care of cases where the 
+										player inputs an invalid input or gets disconnected mid-game. Also has additional features like option to play again with 
+										the same opponent once the match ends.
+									</p>
 								</article>
 								<article>
 									<header>
 										<h2><a href="https://github.com/AshRvm/CS6023/tree/main/Assignments/a4">Train Ticket Booking Simulator</a></h2>
 									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>A <b>Cuda</b> application that simulates ticket bookings for multiple trains, consisting of mulitple compartments each,
+									    moving across various stations. These booking requests are taken in batches, and each batch is processed as parallel as
+										possible, by appropriately storing, accessing and manipulating the data using the parallelism offered by Cuda.
+									</p>
 								</article>
 								<article>
 									<header>
 										<h2><a href="https://github.com/AshRvm/Discord-bot">Music Game Discord Bot</a></h2>
 									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>A discord bot, made using <b>JavaScript</b>, that was created to automate a game that can be played
+										in discord servers, where the host plays certain songs and the contestants are to guess the name of the 
+										song within a certain fixed interval. Creates an entry for every person present in the voice-channel during 
+										the start of the game and automatically adds an entry if a player joins mid-round. Saves each player entries
+										in case of a player getting disconnected.
+									</p>
 								</article>
 								<article>
 									<header>
-										<h2><a href="https://github.com/AshRvm/CS5691/tree/main/a4/Code">Classifier using ANN and SVM</a></h2>
+										<h2><a href="https://github.com/AshRvm/CS5691/tree/main/a4/Code">Classifier using ANN, SVM and KNN</a></h2>
 									</header>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
+										<h2><a href="https://github.com/AshRvm/CS2610/tree/main/Lab_06">Cache Simulator</a></h2>
 									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>A cache simulator, build using <b>C</b>, that given a sequence of addresses to access, simulates the caches and 
+									returns various performance readings of the cache, such as number of cold misses and number of conflict misses. Supports
+									all 3 mapping schemes and also supports 3 replacement policies, namely, Random, LRU and Tree-based pseudo LRU.
+									</p>
 								</article>
 							</section>
 
